@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-VariableFont_wght.ttf"),
+         url("fonts/Raleway-Italic-VariableFont_wght.ttf");
+    font-weight: 100 900;
+}
+
+
+body{
+    width: 80%;    
+    margin-left: 50px;
+    font-family: "Raleway", "Arial", 'Times New Roman', "serif";
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+#logoBooki{
+    height: 45px;
+    padding-top: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 20%;
+    font-weight: 500;
+}
+
+nav a{
+    text-decoration: none;
+    margin-top: 0px;
+    padding: 40px 20px 40px 20px;
+}
+
+#lienHebergements{
+    border-top: 2px solid;
+    
+}
+
+#lienActivites{
+    color: black;
+    padding-left: 60px;
+}
