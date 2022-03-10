@@ -10,7 +10,9 @@ body{
     width: 80%;    
     margin-left: 50px;
     font-family: "Raleway", "Arial", 'Times New Roman', "serif";
+    color: black;
 }
+/*HEADER*/
 
 header{
     display: flex;
@@ -48,3 +50,56 @@ nav a{
     color: black;
     padding-left: 60px;
 }
+
+/*SECTION RECHERCHE*/
+
+.search{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 10px;
+    
+}
+
+.searchIcon{
+    width: 50px;
+    
+    
+}
+
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+
+.searchForm{
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: hidden;
+}
+
+.searchButton{
+    background-color: #0065FC;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+    
+    ;
+    
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.infoIcon{
+    width: 40px;
+}
+
