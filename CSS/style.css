@@ -89,9 +89,8 @@ nav a{
     font-weight: 600;
     border-radius: 0px 20px 20px 0px;
     text-align: center;
-    
-    ;
-    
+    font-family: "Raleway", "Arial", 'Times New Roman', "serif"; 
+    border: hidden;
 }
 
 .info{
