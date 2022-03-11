@@ -54,6 +54,7 @@ nav ul li{
     text-decoration: none;
     margin-top: 0px;
     padding: 0 20px 0 20px;
+    color: black;
    
 }
 
@@ -109,6 +110,7 @@ nav ul li{
     text-align: center;
     font-family: "Raleway", "Arial", 'Times New Roman', "serif"; 
     border: hidden;
+    cursor: pointer;
 }
 
 .info{
@@ -118,5 +120,45 @@ nav ul li{
 
 .infoIcon{
     width: 40px;
+}
+
+/*FILTRES*/
+
+.filtres{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button{
+    padding: 0px 15px 0px 0px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway", "Arial", 'Times New Roman', "serif"; 
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 2px solid #cfcfcf;
+    background-color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: solid 2px #0065FC;
+    
+}
+
+.filterIcon{
+    border: 1px solid #cfcfcf ;
+    border-radius: 50px;
+    padding: 15px;
+    margin-right: 20px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    
 }
 
