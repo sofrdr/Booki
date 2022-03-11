@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet"  href="./CSS/style.css" href="./CSS/normalize.css/">
     <script src="https://kit.fontawesome.com/7117d084c3.js" crossorigin="anonymous"></script>
     <title>Booki</title>
 </head>
@@ -14,12 +14,14 @@
             <img id="logoBooki" src="Booki.png" alt="Logo Booki"/>
         </div>
         <nav>
-            <a id="lienHebergements" href="#">Hébergements</a>
-            <a id="lienActivites" href="#">Activités</a>
+            <ul>
+                <li><a class="navLink" href="#hebergements">Hébergements</a></li>
+                <li><a class="navLink" href="#activites">Activités</a></li>
+            </ul>   
         </nav>
     </header>
     <main>
-        <section> <!-- section recherche d'hébergements-->
+        <section > <!-- section recherche d'hébergements-->
             <div>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
@@ -41,7 +43,7 @@
             </div>    
             
         </section>
-        <section> <!-- Section hébergements-->
+        <section id="hebergements"> <!-- Section hébergements-->
             <div> <!-- Hébergements à Marseille-->
                 <h2>Hébergements à Marseille</h2>
                 <div>
@@ -116,7 +118,7 @@
                 </div>
             </div>
         </section>
-        <section> <!--Activités à Marseille-->
+        <section id="activites"> <!--Activités à Marseille-->
             <h2>Activités à Marseille</h2>
             <div>
                 <div><!-- Vieux port-->
