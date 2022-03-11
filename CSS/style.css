@@ -29,6 +29,9 @@ a:visited{
     color: black;
 }
 
+h2{
+    font-size: 20px;
+}
 /*HEADER*/
 
 header{
@@ -201,7 +204,9 @@ nav ul li{
 }
 
 .cardsHebergements{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;   
     margin: 20px;
     padding: 15px;
@@ -222,13 +227,22 @@ nav ul li{
 #containerPopulaire{
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 27%;
     background-color: #F2F2F2;
     padding: 20px 0 30px 10px;
 }
 
+#titlePopulaire{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+
 .cardsPopulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: white;   
     margin: 20px;
     padding: 15px;
@@ -237,4 +251,18 @@ nav ul li{
     height: 100px;
     width: 250px;
 
+}
+
+.notation{
+    display: flex;
+    
+}
+
+.blueStars
+{
+    color: #0065FC;
+}
+
+.greyStars{
+    color: #cfcfcf;
 }
