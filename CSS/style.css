@@ -32,6 +32,10 @@ a:visited{
 h2{
     font-size: 20px;
 }
+
+h3{
+    font-size: 16px;
+}
 /*HEADER*/
 
 header{
@@ -208,7 +212,7 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     background-color: white;   
-    margin: 20px;
+    margin: 15px;
     padding: 15px;
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
@@ -240,12 +244,10 @@ nav ul li{
 
 .cardsPopulaire{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+ 
     background-color: white;   
-    margin: 20px;
-    padding: 15px;
+    margin: 10px;
+    padding: 20px;
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
     height: 100px;
@@ -253,16 +255,53 @@ nav ul li{
 
 }
 
+
 .notation{
     display: flex;
+    
     
 }
 
 .blueStars
 {
     color: #0065FC;
+    
 }
 
 .greyStars{
     color: #cfcfcf;
+}
+
+/*ACTIVITES*/
+
+
+
+#containerActivites{
+    display: flex;
+    
+    
+}
+
+.cardColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardsActivites{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;   
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 20px;
+}
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
 }
