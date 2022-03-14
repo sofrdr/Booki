@@ -40,6 +40,8 @@ h2{
 
 h3{
     font-size: 14px;
+    line-height: 1;
+    
 }
 
 p{
@@ -260,7 +262,7 @@ nav ul li{
 
 .description{
     height: 40%;
-    line-height: 0.5;
+    line-height: 0.2;
     margin-left: 10px;
 }
 
