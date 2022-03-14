@@ -66,7 +66,7 @@ nav ul{
     display: flex;
     align-items: center;
     width: 20%;
-    font-weight: 450; 
+    font-weight: 500; 
     font-size: 15px; 
      
 }
@@ -85,7 +85,7 @@ nav ul li{
 
 .navLink:hover{
     color: #0065FC;
-    border-top: 2px solid;
+    border-top: 3px solid;
     padding-top: 40px;
     
 }
@@ -181,6 +181,7 @@ nav ul li{
     margin-right: 20px;
     color: #0065FC;
     background-color: #DEEBFF;
+    
     
 }
 
@@ -280,10 +281,11 @@ nav ul li{
 #containerPopulaire{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 20px 0 20px 0x;
+    
 }
 
 #titlePopulaire{
@@ -302,19 +304,19 @@ nav ul li{
 .cardsPopulaire{
     display: flex;
     background-color: white;   
-    margin: 20px;
-    padding: 20px;
+    margin: 15px;
+    padding: 5px;
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
-    height: 100px;
-    width: 270px;
+    height: 120px;
+    width: 300px;
 
 }
 
 .imagePopulaires{
-    width: 33%;
-    height: 100%;
-    border-radius: 10px 0 0 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px 0 0 20px;
 
 }
 
