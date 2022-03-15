@@ -60,7 +60,7 @@ header{
 
 #logoBooki{
     height: 40px;
-    padding-top: 40px;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
@@ -73,13 +73,10 @@ nav ul{
      
 }
 
-nav ul li{
-    margin-left: 30px;
-}
-
 .navLink{
     text-decoration: none;
     margin-top: 0px;
+    margin-left: 30px;
     padding: 0 15px;
     color: black;
    
@@ -88,7 +85,7 @@ nav ul li{
 .navLink:hover{
     color: #0065FC;
     border-top: 3px solid;
-    padding-top: 40px;
+    padding-top: 30px;
     
 }
 
