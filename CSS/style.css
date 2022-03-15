@@ -216,7 +216,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 67%;
+    width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
      
@@ -241,7 +241,7 @@ nav ul{
     padding: 5px;
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
-    width: 220px;
+    width: 27%;
     height: 180px;
 }
 
@@ -256,8 +256,16 @@ nav ul{
 .imageHebergements{
     width: 100%;
     height: 60%;
+    overflow: hidden;
+    
+}
+
+.imageHebergements img{
+    max-width: 100%;
     border-radius: 20px 20px 0 0;
 }
+
+
 
 .description{
     height: 40%;
@@ -287,7 +295,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 30%;
+    width: 33%;
     background-color: #F2F2F2;
     border-radius: 20px;
     
@@ -331,22 +339,78 @@ nav ul{
 
 
 
-#containerActivites{
+.containerActivites{
     display: flex;
-    
+     
     
 }
 
-.cardColumn{
+.cardsColumn{
     display: flex;
     flex-direction: column;
+    width: 200px;
+    
 }
 
 .cardsActivites{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: white;   
+    
+    background-color: white;
+    width: 200px; 
+    margin: 15px 15px 0 0;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 20px;
+    
+}
+
+.fortPomegues{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 20px;
+}
+
+.ilesFrioul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 20px;
+}
+
+.notreDame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #888888;
+    border-radius: 20px;
+}
+.parcLongchamp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: white;
+    width: 100%;
     margin: 15px;
     padding: 15px;
     box-shadow: 1px 1px 5px #888888;
@@ -357,7 +421,8 @@ nav ul{
 
 footer{
     display: flex;
-    justify-content: space-around;
+
     background-color: #F2F2F2;
     margin-left: 0;
 }
+
