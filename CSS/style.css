@@ -288,10 +288,12 @@ main{
     display: flex;
     font-size: 11px;
     
+    
 }
 
 .blueStars{
     color: #0065FC;
+    margin-right: 3px;
     
 }
 
