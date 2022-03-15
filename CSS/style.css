@@ -420,3 +420,10 @@ footer div{
     margin: 30px 200px 50px 50px;
 }
 
+footer div h2{
+    font-size: 18px;
+}
+
+.listeFooter{
+    line-height: 2;
+}
