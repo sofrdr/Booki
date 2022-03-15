@@ -219,16 +219,17 @@ nav ul{
     width: 67%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding-left: 20px; 
+     
 }
 
 #containerHebergements h2{
-    margin: 40px 0 20px 20px;
+    margin: 40px 0 20px 40px;
 }
 
 .containerCards{
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    justify-content: center;   
 }
 
 .cardsHebergements{
@@ -249,7 +250,7 @@ nav ul{
 .afficher{
     font-size: 16px;
     font-weight: bold;
-    margin: 20px 0 40px 20px;
+    margin: 20px 0 40px 40px;
 }
 
 .imageHebergements{
