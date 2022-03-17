@@ -9,10 +9,14 @@
 /*GENERAL*/
 
 body{
-    margin: 0 60px;   
+    margin: 0;   
     font-family: "Raleway", "Arial", "sans-serif";
     color: black;
     
+}
+
+main{
+    margin: 0 60px;
 }
 
 ul {
@@ -53,7 +57,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin: 0 60px 50px 60px;
 
     
 }
@@ -452,7 +456,7 @@ footer{
 }
 
 footer div{
-    margin: 30px 200px 50px 50px;
+    margin: 30px 200px 50px 60px;
 }
 
 footer div h2{
