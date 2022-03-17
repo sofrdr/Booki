@@ -87,7 +87,7 @@ nav ul{
 
 .navLink:hover{
     color: #0065FC;
-    border-top: 3px solid;
+    border-top: 2px solid;
     padding-top: 30px;
     
 }
@@ -177,6 +177,10 @@ nav ul{
     background-color: white;
     cursor: pointer;
     position: relative;
+}
+
+.button:hover{
+    box-shadow: 2px 2px 10px #888888;
 }
 
 
