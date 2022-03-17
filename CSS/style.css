@@ -269,7 +269,7 @@ nav ul{
 
 .imageHebergements{
     width: 100%;
-    height: 60%;
+    height: 65%;
     overflow: hidden;
     
     
@@ -285,8 +285,8 @@ nav ul{
 
 
 .description{
-    height: 40%;
-    line-height: 0.7;
+    height: 35%;
+    line-height: 0.5;
     margin-left: 10px;
 }
 
