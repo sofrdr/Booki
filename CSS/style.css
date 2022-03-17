@@ -324,8 +324,15 @@ nav ul{
     line-height: 0.2;
     margin-left: 20px;
     width: 60%;
+    position: relative;
 }
 
+.notationPopulaire{
+    display: flex;
+    font-size: 11px;
+    position: absolute;
+    top: 100px;
+}
 .hebergementsPopulaires{
     display: flex;
     flex-direction: column;  
