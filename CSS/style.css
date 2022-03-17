@@ -383,7 +383,7 @@ nav ul{
 
 
 .cardsActivites{
-    box-shadow: 1px 1px 5px #888888;
+    box-shadow: 1px 1px 2px #888888;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
