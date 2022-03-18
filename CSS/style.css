@@ -223,23 +223,19 @@ nav ul{
 #conteneurHebergements{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 40px 0;
+    padding: 40px;
     margin-right: 60px; 
     
-}
-
-#conteneurHebergements h2{
-    margin-left: 90px;
 }
 
 .conteneurCartes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;   
+       
 }
 
 .cartesHebergements{
@@ -247,18 +243,19 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     background-color: white;   
-    margin: 15px;
+    margin: 15px 30px 15px 0;
     padding: 5px;
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
-    width: 300px;
-    height: 240px;
+    width: 28%;
+    height: 220px;
 }
+
+
 
 .afficher{
     font-size: 16px;
     font-weight: bold;
-    margin-left: 90px;
     margin-top: 20px;
 }
 
@@ -281,7 +278,7 @@ nav ul{
 
 .description{
     height: 35%;
-    line-height: 0.5;
+    line-height: 0.2;
     margin-left: 10px;
 }
 
@@ -321,6 +318,7 @@ nav ul{
     align-items: center; 
     justify-content: space-around;
     
+    
 }
 
 .descriptionPopulaire{
@@ -350,7 +348,7 @@ nav ul{
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
     height: 150px;
-    width: 400px;
+    width: 70%;
 
 }
 
@@ -476,4 +474,109 @@ footer div h2{
 
 .listeFooter{
     line-height: 2;
+}
+
+/*RESPONSIVE TABLETTE*/
+@media all and (min-width: 768px) and (max-width: 992px){
+
+}
+
+/*RESPONSIVE MOBILE*/
+@media screen and (max-width: 768px){
+    
+    body{
+        width: auto;
+    }
+
+    main{
+        margin: auto;
+    }
+
+    header{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+
+
+    #logoBooki{
+        margin: auto
+    }
+
+
+    nav{
+        width: 100%;
+        margin: 20px 0;
+        
+    }
+
+    nav ul{
+        width: 100%;
+    }
+
+    nav ul li{
+        width: 50%;
+        border-bottom: 2px solid #F2F2F2;
+        padding-bottom: 10px;
+    }
+
+    .navLien{
+        width: 100%;
+    }
+
+    .navLien:hover{
+        border-top: none ;
+    }
+
+    nav ul li:hover{
+        color: #0065FC;
+        
+        border-bottom: 2px solid;
+        padding-bottom: 10px;   
+    }
+
+    .filtres{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .bouton{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #hebergements{
+        flex-direction: column-reverse;
+    }
+
+    #conteneurPopulaire{
+        width: 100%;
+    }
+
+    #conteneurHebergements{
+        width: 100%;
+    }
+
+    .conteneurActivites{
+        flex-direction: column;
+    }
+
+    .cartesActivites{
+        width: 100%;
+    }
+
+    .cartesColonne1{
+        width: 100%;
+    }
+
+    .cartesColonne2{
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+
 }
