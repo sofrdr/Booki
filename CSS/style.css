@@ -639,6 +639,7 @@ footer div h2{
 
     .cartesColonne1{
         width: 100%;
+        margin-bottom: 20px;
     }
 
     .fortPomegues{
@@ -652,6 +653,7 @@ footer div h2{
 
     .cartesColonne2{
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .notreDame{
@@ -664,6 +666,12 @@ footer div h2{
 
     footer{
         flex-direction: column;
+        padding: 20px;
+    }
+
+    footer div{
+        width: 100%;
+        margin: 10px;
     }
 
 
