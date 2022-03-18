@@ -231,7 +231,7 @@ nav ul{
     width: 66%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 40px;
+    padding-left: 40px;
     margin-right: 60px; 
     
 }
@@ -251,7 +251,7 @@ nav ul{
     padding: 5px;
     box-shadow: 1px 1px 5px #888888;
     border-radius: 20px;
-    width: 28%;
+    width: 29%;
     height: 220px;
 }
 
