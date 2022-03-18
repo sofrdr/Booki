@@ -160,6 +160,10 @@ nav ul{
     font-weight: 600;
 }
 
+.boutonsFiltres{
+    display: flex;
+}
+
 .filtres h2{
     font-size: 17px;
 }
@@ -200,7 +204,7 @@ nav ul{
 .info{
     display: flex;
     align-items: center;
-    margin: 30px 0 30px 10px;
+    margin: 15px 0 30px 10px;
 }
 
 .infoIcone{
@@ -543,11 +547,16 @@ footer div h2{
     .filtres{
         flex-direction: column;
         align-items: flex-start;
+        
     }
 
+    .boutonsFiltres{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .bouton{
         
-        margin-left: 0;
+        margin: 0 15px 15px 0;
         font-size: 14px;
         padding: 12px 12px 12px 50px;
 
