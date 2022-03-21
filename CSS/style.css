@@ -470,7 +470,85 @@ footer div h2{
 
 /*RESPONSIVE TABLETTE*/
 @media all and (min-width: 768px) and (max-width: 992px){
+    body{
+        width: auto;
+    }
 
+    main{
+        margin: 0 30px;
+    }
+
+    header{
+        margin: 0 30px 40px;
+    }
+
+    .filtres{
+        align-items: flex-start;
+        margin: 40px 0 5px;
+    }
+
+    .boutonsFiltres{
+        display: flex;
+        flex-wrap: wrap;       
+    }
+    
+    .bouton{
+        margin: 0 15px 15px 15px;
+    }
+
+    .info{
+        margin-bottom: 40px;
+    }
+
+    #hebergements{
+        flex-direction: column-reverse;
+    }
+
+    .conteneurHebergements{
+        width: 100%;
+        background-color: white;
+        
+    }
+    
+    .conteneurPopulaire{
+        width: auto;
+        margin: 0 30px 30px;
+        padding: 10px 0;
+    }
+
+    .cartesHebergements{
+        width: 42%;
+    }
+
+    #activites{
+        width: 100%;
+        margin: 30px 30px 15px;
+    }
+
+    .conteneurActivites{
+        flex-wrap: wrap;
+    }
+
+    .cartesActivites{
+        width: 42%;
+        margin: 10px 40px 30px 0;
+    }
+
+    .cartesColonne1{
+        width: 42%;
+        margin: 10px 0 30px 0;
+    }
+
+    .cartesColonne2{
+        width: 42%;
+        margin: 10px 0 30px 0;
+    }
+
+
+    
+    footer div{
+        margin: 30px 20px 30px 60px;
+    }
 }
 
 /*RESPONSIVE MOBILE*/
@@ -490,11 +568,9 @@ footer div h2{
         margin: auto;
     }
 
-
     .logoBooki{
         margin: 20px 0 0 20px;
     }
-
 
     nav{
         width: 100%;
@@ -657,6 +733,5 @@ footer div h2{
         width: 100%;
         margin: 10px;
     }
-
 
 }
