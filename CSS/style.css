@@ -62,7 +62,7 @@ header{
     
 }
 
-#logoBooki{
+.logoBooki{
     height: 40px;
     margin-top: 40px;
     margin-left: 10px;
@@ -108,21 +108,22 @@ nav ul{
     background-color: #F2F2F2;
     border-radius: 15px 0 0 15px;
     width: 45px;
-    height: 50px;
-    text-align: center;
+    height: 50px; 
+    position: relative;
 }
 
 #positionIcone{
-    position: relative;
+    position: absolute;
     top: 15px;
+    left: 18px;
+
 }
 
 ::placeholder{
     color: #000000;
     opacity: 1;
     font-family: "Raleway", "Arial", "sans-serif";
-    font-size: 16px;
-    
+    font-size: 16px;   
 }
 
 .rechercheForm{
@@ -201,15 +202,13 @@ nav ul{
     color: #0065FC;
     background-color: #DEEBFF;
     position: absolute;
-    left: -2px;
-    
-    
+    left: -2px;   
 }
 
 .info{
     display: flex;
     align-items: center;
-    margin: 15px 0 30px 10px;
+    margin: 15px 0 20px 10px;
 }
 
 .infoIcone{
@@ -219,7 +218,8 @@ nav ul{
     border: 2px solid #F2F2F2;
     border-radius: 50px;
     padding: 3px;
-    margin-right: 20px;
+    margin-right: 15px;
+    font-size: 14px;
 }
 
 /*SECTION HEBERGEMENTS*/
@@ -229,7 +229,7 @@ nav ul{
     justify-content: space-between;
 }
 
-#conteneurHebergements{
+.conteneurHebergements{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -237,18 +237,15 @@ nav ul{
     background-color: #F2F2F2;
     border-radius: 20px;
     padding-left: 40px;
-    margin-right: 60px; 
-    
+    margin-right: 60px;     
 }
 
 .conteneurCartes{
     display: flex;
-    flex-wrap: wrap;
-       
+    flex-wrap: wrap;       
 }
 
-.cartesHebergements{
-    
+.cartesHebergements{   
     flex-direction: column;
     justify-content: center;
     background-color: white;   
@@ -260,8 +257,6 @@ nav ul{
     height: 220px;
 }
 
-
-
 .afficher{
     font-size: 16px;
     font-weight: bold;
@@ -271,9 +266,7 @@ nav ul{
 .imageHebergements{
     width: 100%;
     height: 65%;
-    overflow: hidden;
-    
-    
+    overflow: hidden;   
 }
 
 .imageHebergements img{
@@ -283,8 +276,6 @@ nav ul{
     object-fit: cover;    
 }
 
-
-
 .description{
     height: 35%;
     line-height: 0.2;
@@ -293,15 +284,12 @@ nav ul{
 
 .notation{
     display: flex;
-    font-size: 11px;
-    
-    
+    font-size: 11px;    
 }
 
 .etoileBleue{
     color: #0065FC;
-    margin-right: 3px;
-    
+    margin-right: 3px;   
 }
 
 .etoileGrise{
@@ -310,24 +298,19 @@ nav ul{
 
 /*POPULAIRES*/
 
-#conteneurPopulaire{
+.conteneurPopulaire{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 33%;
     background-color: #F2F2F2;
-    border-radius: 20px;
-    
-    
-    
+    border-radius: 20px;   
 }
 
-#titrePopulaire{
+.titrePopulaire{
     display: flex;
     align-items: center; 
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;   
 }
 
 .descriptionPopulaire{
@@ -498,7 +481,7 @@ footer div h2{
     }
 
     main{
-        margin: auto;
+        margin: 0 15px;
     }
 
     header{
@@ -508,15 +491,14 @@ footer div h2{
     }
 
 
-    #logoBooki{
-        margin: auto;
+    .logoBooki{
+        margin: 20px 0 0 20px;
     }
 
 
     nav{
         width: 100%;
-        margin: 30px 0;
-        
+        margin: 20px 0;       
     }
 
     nav ul{
@@ -539,16 +521,19 @@ footer div h2{
     }
 
     nav ul li:hover{
-        color: #0065FC;
-        
+        color: #0065FC;    
         border-bottom: 2px solid;
         padding-bottom: 10px;   
     }
 
     .trouvezHebergement{
-        padding: 15px;
+        margin: 0 15px;    
     }
 
+    h1{
+        margin-right: 20px;
+    }
+   
     .boutonLoupe{
         display: inline-block;
         background-color: #0065FC;
@@ -568,19 +553,23 @@ footer div h2{
     .filtres{
         flex-direction: column;
         align-items: flex-start;
-        
+        margin-left: 0;      
     }
 
     .boutonsFiltres{
         display: flex;
         flex-wrap: wrap;
     }
+
     .bouton{
         
-        margin: 0 15px 15px 0;
+        margin: 0 10px 10px 0;
         font-size: 14px;
         padding: 12px 12px 12px 50px;
-
+    }
+    
+    .info{
+        margin: 15px 0;;
     }
 
     .rechercheBouton{
@@ -591,31 +580,28 @@ footer div h2{
         flex-direction: column-reverse;
     }
 
-    #conteneurPopulaire{
+    .conteneurPopulaire{
         width: 100%;
     }
 
-    #conteneurHebergements{
+    .conteneurHebergements{
         width: 100%;
         padding: 15px;
         background-color: white;
-
     }
 
-    
     .cartesHebergements{
         width: 100%;
-        height: 210px;
-        
+        height: 210px;    
     }
 
-    #conteneurPopulaire{
+    .conteneurPopulaire{
         padding: 15px;
         width: auto;
         border-radius: 0;
     }
 
-    #titrePopulaire{
+    .titrePopulaire{
         justify-content: space-between;
     }
 
@@ -633,8 +619,7 @@ footer div h2{
 
     .cartesActivites{
         width: 100%;
-        height: 180px;
-        
+        height: 180px;      
     }
 
     .cartesColonne1{
@@ -644,7 +629,6 @@ footer div h2{
 
     .fortPomegues{
         height: 180px;
-
     }
 
     .ilesFrioul{
