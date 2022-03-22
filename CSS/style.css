@@ -5,471 +5,513 @@
     font-weight: 100 900;
 }
 
+@media screen and (max-width: 3000px){
+    /*GENERAL*/
 
-/*GENERAL*/
+    body{
+        margin: 0;   
+        font-family: "Raleway", "Arial", "sans-serif";
+        color: #000000;
+        
+    }
 
-body{
-    margin: 0;   
-    font-family: "Raleway", "Arial", "sans-serif";
-    color: #000000;
+    main{
+        margin: 0 60px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: #000000;
+    } 
+
+    a:visited{
+        color: #000000;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h3{
+        font-size: 16px;
+        line-height: 1;
+        
+    }
+
+    p{
+        font-size: 14px;
+    }
+    /*HEADER*/
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 60px 50px 60px;
+
+        
+    }
+
+    .logoBooki{
+        height: 40px;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+
+    nav ul{
+        display: flex;
+        align-items: center;
+        width: 20%;
+        font-weight: 500; 
+        font-size: 15px; 
+        
+    }
+
+    .navLien{
+        text-decoration: none;
+        margin-left: 30px;
+        padding: 0 20px;
+        color: #000000;
     
-}
+    }
 
-main{
-    margin: 0 60px;
-}
+    .navLien:hover{
+        color: #0065FC;
+        border-top: 2px solid;
+        padding-top: 30px;
+        
+    }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 
-a{
-    text-decoration: none;
-    color: #000000;
-} 
+    /*SECTION RECHERCHE*/
 
-a:visited{
-    color: #000000;
-}
+    .recherche{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        margin-top: 20px;
+        position: relative;   
+    }
 
-h1{
-    font-size: 20px;
-}
-
-h2{
-    font-size: 20px;
-}
-
-h3{
-    font-size: 16px;
-    line-height: 1;
+    .rechercheIcone{
     
+        background-color: #F2F2F2;
+        border-radius: 15px 0 0 15px;
+        width: 45px;
+        height: 50px; 
+        position: relative;
+    }
+
+    #positionIcone{
+        position: absolute;
+        top: 15px;
+        left: 18px;
+
+    }
+
+    ::placeholder{
+        color: #000000;
+        opacity: 1;
+        font-family: "Raleway", "Arial", "sans-serif";
+        font-size: 16px;   
+    }
+
+    .rechercheForm{
+        width: 230px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 2px solid #F2F2F2;
+        padding-left: 20px;
+        
+    }
+
+    .rechercheBouton{
+        background-color: #0065FC;
+        height: 50px;
+        width: 120px;
+        font-size: 16px;
+        color: white;
+        font-weight: 600;
+        border-radius: 0px 20px 20px 0px;
+        text-align: center;
+        font-family: "Raleway", "Arial", "sans-serif"; 
+        border: hidden;
+        cursor: pointer;
+    }
+
+    .boutonLoupe{
+        display: none;
+    }
+
+
+    /*FILTRES*/
+
+    .filtres{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .boutonsFiltres{
+        display: flex;
+    }
+
+    .filtres h2{
+        font-size: 17px;
+    }
+
+    .bouton{
+        padding: 12px 12px 12px 60px;
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+        font-family: "Raleway", "Arial", "sans-serif"; 
+        font-size: 17px;
+        font-weight: 700;
+        border-radius: 50px;
+        border: 2px solid #F2F2F2;
+        background-color: white;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .bouton:hover{
+        box-shadow: 2px 2px 10px #888888;
+    }
+
+
+    #filtreIconeEconomique{
+        border: 1px solid #F2F2F2 ;
+        border-radius: 50px;
+        padding: 13px;
+        margin-right: 15px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        position: absolute;
+        left: -2px;   
+    }
+
+    #filtreIconeFamilial{
+        border: 1px solid #F2F2F2 ;
+        border-radius: 50px;
+        padding: 13px;
+        margin-right: 15px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        position: absolute;
+        left: -2px;   
+    }
+
+    #filtreIconeRomantique{
+        border: 1px solid #F2F2F2 ;
+        border-radius: 50px;
+        padding: 13px;
+        margin-right: 15px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        position: absolute;
+        left: -2px;   
+    }
+
+    #filtreIconeAnimaux{
+        border: 1px solid #F2F2F2 ;
+        border-radius: 50px;
+        padding: 13px;
+        margin-right: 15px;
+        color: #0065FC;
+        background-color: #DEEBFF;
+        position: absolute;
+        left: -2px;   
+    }
+
+    .info{
+        display: flex;
+        align-items: center;
+        margin: 15px 0 20px 10px;
+    }
+
+    .infoIcone{
+        text-align: center;
+        width: 20px;
+        color: #0065FC;
+        border: 2px solid #F2F2F2;
+        border-radius: 50px;
+        padding: 3px;
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    /*SECTION HEBERGEMENTS*/
+
+    #hebergements{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .conteneurHebergements{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 67%;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        padding-left: 40px;
+        margin-right: 60px;     
+    }
+
+    .conteneurCartes{
+        display: flex;
+        flex-wrap: wrap;       
+    }
+
+    .cartesHebergements{   
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;   
+        margin: 15px 30px 15px 0;
+        padding: 5px;
+        box-shadow: 1px 1px 5px #888888;
+        border-radius: 20px;
+        width: 29%;
+        min-width: 250px;
+        height: 220px;
+    }
+
+    .afficher{
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .imageHebergements{
+        width: 100%;
+        height: 60%;
+        overflow: hidden;   
+    }
+
+    .imageHebergements img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 0 0;
+        object-fit: cover;    
+    }
+
+    .description{
+        height: 35%;
+        line-height: 0.2;
+        margin-left: 10px;
+    }
+
+    .notation{
+        display: flex;
+        font-size: 11px;    
+    }
+
+    .etoileBleue{
+        color: #0065FC;
+        margin-right: 3px;   
+    }
+
+    .etoileGrise{
+        color: #CFCFCF;
+    }
+
+    /*POPULAIRES*/
+
+    .conteneurPopulaire{
+        display: flex;
+        flex-direction: column; 
+        width: 33%;
+        background-color: #F2F2F2;
+        border-radius: 20px;   
+    }
+
+    .titrePopulaire{
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        margin: 0 40px;   
+    }
+
+    .descriptionPopulaire{
+        
+        padding-left: 20px;
+        width: 70%;
+        position: relative;
+    }
+
+    .notationPopulaire{
+        display: flex;
+        font-size: 11px;
+        position: absolute;
+        top: 130px;
+    }
+    .hebergementsPopulaires{
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    .cartesPopulaire{
+        display: flex;
+        background-color: white;   
+        margin: 20px;
+        padding: 5px;
+        box-shadow: 1px 1px 5px #888888;
+        border-radius: 20px;
+        height: 150px;
+        width: 85%;
+        min-width: 250px;
+
+    }
+
+    .imagePopulaires{
+        width: 33%;
+        min-width: 150px;
+        height: 100%;
+        overflow: hidden;
+        
+
+    }
+    .imagePopulaires img{
+        border-radius: 20px 0 0 20px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /*ACTIVITES*/
+
+    #activites{
+        margin: 50px 0;
+        
+    }
+
+    .conteneurActivites{
+        display: flex;
+    }
+
+
+    .cartesActivites{
+        box-shadow: 1px 1px 2px #888888;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 40px 20px 0;
+        width: 25%;
+        height: 500px;
+        
+    }
+
+    .cartesColonne1{
+        width: 25%;
+        
+        margin: 20px 40px 50px 0;
+    }
+
+    .cartesColonne2{
+        width: 25%;
+        
+        margin: 20px 0px 50px 0;
+    }
+
+    .fortPomegues{
+        box-shadow: 1px 1px 5px #888888;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+        height: 300px;
+        width: 100%;
+    }
+
+    .ilesFrioul{
+        box-shadow: 1px 1px 5px #888888;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 160px;
+    }
+
+    .notreDame{
+        box-shadow: 1px 1px 5px #888888;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 220px;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .parcLongchamp{
+        box-shadow: 1px 1px 5px #888888;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        height: 240px;
+    }
+
+    .imageActivites{
+        width: 100%;
+        height: 90%;
+        overflow: hidden;
+    }
+
+    .imageActivites img{
+        border-radius: 20px 20px 0 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /*FOOTER*/
+
+    footer{
+        display: flex;
+        background-color: #F2F2F2;
+        
+    }
+
+    footer div{
+        margin: 30px 200px 50px 60px;
+    }
+
+    footer div h2{
+        font-size: 18px;
+    }
+
+    .listeFooter{
+        line-height: 2;
+    }
 }
 
-p{
-    font-size: 14px;
-}
-/*HEADER*/
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 60px 50px 60px;
-
-    
-}
-
-.logoBooki{
-    height: 40px;
-    margin-top: 40px;
-    margin-left: 10px;
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-    width: 20%;
-    font-weight: 500; 
-    font-size: 15px; 
-     
-}
-
-.navLien{
-    text-decoration: none;
-    margin-left: 30px;
-    padding: 0 20px;
-    color: #000000;
-   
-}
-
-.navLien:hover{
-    color: #0065FC;
-    border-top: 2px solid;
-    padding-top: 30px;
-    
-}
-
-
-/*SECTION RECHERCHE*/
-
-.recherche{
-    display: flex;
-    align-items: center;
-    height: 50px;
-    margin-top: 20px;
-    position: relative;   
-}
-
-.rechercheIcone{
-   
-    background-color: #F2F2F2;
-    border-radius: 15px 0 0 15px;
-    width: 45px;
-    height: 50px; 
-    position: relative;
-}
-
-#positionIcone{
-    position: absolute;
-    top: 15px;
-    left: 18px;
-
-}
-
-::placeholder{
-    color: #000000;
-    opacity: 1;
-    font-family: "Raleway", "Arial", "sans-serif";
-    font-size: 16px;   
-}
-
-.rechercheForm{
-    width: 230px;
-    height: 50px;
-    font-size: 18px;
-    font-weight: bold;
-    border: 2px solid #F2F2F2;
-    padding-left: 20px;
-    
-}
-
-.rechercheBouton{
-    background-color: #0065FC;
-    height: 50px;
-    width: 120px;
-    font-size: 16px;
-    color: white;
-    font-weight: 600;
-    border-radius: 0px 20px 20px 0px;
-    text-align: center;
-    font-family: "Raleway", "Arial", "sans-serif"; 
-    border: hidden;
-    cursor: pointer;
-}
-
-.boutonLoupe{
-    display: none;
-}
-
-
-/*FILTRES*/
-
-.filtres{
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: 10px;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.boutonsFiltres{
-    display: flex;
-}
-
-.filtres h2{
-    font-size: 17px;
-}
-
-.bouton{
-    padding: 12px 12px 12px 60px;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-    font-family: "Raleway", "Arial", "sans-serif"; 
-    font-size: 17px;
-    font-weight: 700;
-    border-radius: 50px;
-    border: 2px solid #F2F2F2;
-    background-color: white;
-    cursor: pointer;
-    position: relative;
-}
-
-.bouton:hover{
-    box-shadow: 2px 2px 10px #888888;
-}
-
-
-.filtreIcone{
-    border: 1px solid #F2F2F2 ;
-    border-radius: 50px;
-    padding: 13px;
-    margin-right: 15px;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    position: absolute;
-    left: -2px;   
-}
-
-.info{
-    display: flex;
-    align-items: center;
-    margin: 15px 0 20px 10px;
-}
-
-.infoIcone{
-    text-align: center;
-    width: 20px;
-    color: #0065FC;
-    border: 2px solid #F2F2F2;
-    border-radius: 50px;
-    padding: 3px;
-    margin-right: 15px;
-    font-size: 14px;
-}
-
-/*SECTION HEBERGEMENTS*/
-
-#hebergements{
-    display: flex;
-    justify-content: space-between;
-}
-
-.conteneurHebergements{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 66%;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    padding-left: 40px;
-    margin-right: 60px;     
-}
-
-.conteneurCartes{
-    display: flex;
-    flex-wrap: wrap;       
-}
-
-.cartesHebergements{   
-    flex-direction: column;
-    justify-content: center;
-    background-color: white;   
-    margin: 15px 30px 15px 0;
-    padding: 5px;
-    box-shadow: 1px 1px 5px #888888;
-    border-radius: 20px;
-    width: 29%;
-    height: 220px;
-}
-
-.afficher{
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.imageHebergements{
-    width: 100%;
-    height: 65%;
-    overflow: hidden;   
-}
-
-.imageHebergements img{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px 20px 0 0;
-    object-fit: cover;    
-}
-
-.description{
-    height: 35%;
-    line-height: 0.2;
-    margin-left: 10px;
-}
-
-.notation{
-    display: flex;
-    font-size: 11px;    
-}
-
-.etoileBleue{
-    color: #0065FC;
-    margin-right: 3px;   
-}
-
-.etoileGrise{
-    color: #CFCFCF;
-}
-
-/*POPULAIRES*/
-
-.conteneurPopulaire{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 33%;
-    background-color: #F2F2F2;
-    border-radius: 20px;   
-}
-
-.titrePopulaire{
-    display: flex;
-    align-items: center; 
-    justify-content: space-around;   
-}
-
-.descriptionPopulaire{
-    height: 40%;
-    margin-left: 20px;
-    width: 40%;
-    position: relative;
-}
-
-.notationPopulaire{
-    display: flex;
-    font-size: 11px;
-    position: absolute;
-    top: 130px;
-}
-.hebergementsPopulaires{
-    display: flex;
-    flex-direction: column;  
-    align-items: center;
-}
-
-.cartesPopulaire{
-    display: flex;
-    background-color: white;   
-    margin: 20px;
-    padding: 5px;
-    box-shadow: 1px 1px 5px #888888;
-    border-radius: 20px;
-    height: 150px;
-    width: 70%;
-
-}
-
-.imagePopulaires{
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    
-
-}
- .imagePopulaires img{
-    border-radius: 20px 0 0 20px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
-
-
-/*ACTIVITES*/
-
-#activites{
-    margin: 50px 0;
-    
-}
-
-.conteneurActivites{
-    display: flex;
-}
-
-
-.cartesActivites{
-    box-shadow: 1px 1px 2px #888888;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 50px 20px 0;
-    width: 25%;
-    height: 500px;
-    
-}
-
-.cartesColonne1{
-    width: 25%;
-    margin: 20px 50px 50px 0;
-}
-
-.cartesColonne2{
-    width: 25%;
-    margin: 20px 0px 50px 0;
-}
-
-.fortPomegues{
-    box-shadow: 1px 1px 5px #888888;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-    height: 300px;
-    width: 100%;
-}
-
-.ilesFrioul{
-    box-shadow: 1px 1px 5px #888888;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 160px;
-}
-
-.notreDame{
-    box-shadow: 1px 1px 5px #888888;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 220px;
-    margin-bottom: 40px;
-    margin-right: 0;
-}
-
-.parcLongchamp{
-    box-shadow: 1px 1px 5px #888888;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-    height: 240px;
-}
-
-.imageActivites{
-    width: 100%;
-    height: 90%;
-    overflow: hidden;
-}
-
-.imageActivites img{
-    border-radius: 20px 20px 0 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/*FOOTER*/
-
-footer{
-    display: flex;
-    background-color: #F2F2F2;
-    
-}
-
-footer div{
-    margin: 30px 200px 50px 60px;
-}
-
-footer div h2{
-    font-size: 18px;
-}
-
-.listeFooter{
-    line-height: 2;
-}
 
 /*RESPONSIVE TABLETTE*/
-@media all and (min-width: 768px) and (max-width: 992px){
+@media all and (max-width: 992px){
+
     body{
         width: auto;
     }
@@ -506,14 +548,17 @@ footer div h2{
 
     .conteneurHebergements{
         width: 100%;
-        background-color: white;
-        
+        background-color: white;     
     }
     
-    .conteneurPopulaire{
+    .conteneurPopulaire{     
         width: auto;
         margin: 0 30px 30px;
         padding: 10px 0;
+    }
+
+    .titrePopulaire h2{
+        margin-right: 20px;
     }
 
     .cartesHebergements{
@@ -645,7 +690,7 @@ footer div h2{
     }
     
     .info{
-        margin: 15px 0;;
+        margin: 10px 0;;
     }
 
     .rechercheBouton{
@@ -672,22 +717,27 @@ footer div h2{
     }
 
     .conteneurPopulaire{
-        padding: 15px;
+        padding: 10px;
         width: auto;
+        margin: 0;
         border-radius: 0;
     }
 
     .titrePopulaire{
         justify-content: space-between;
+        margin: 0 15px;
     }
 
     .cartesPopulaire{
-        width: 100%;
+        width: 90%;
+        
     }
+    
 
     #activites{
         padding: 15px;
-        margin-top: 0;
+        margin: 0;
+        width: auto;
     }
     .conteneurActivites{
         flex-direction: column;
@@ -695,12 +745,14 @@ footer div h2{
 
     .cartesActivites{
         width: 100%;
-        height: 180px;      
+        height: 180px;
+             
     }
 
     .cartesColonne1{
         width: 100%;
         margin-bottom: 20px;
+        
     }
 
     .fortPomegues{
@@ -733,5 +785,4 @@ footer div h2{
         width: 100%;
         margin: 10px;
     }
-
 }
