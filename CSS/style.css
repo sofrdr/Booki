@@ -5,7 +5,6 @@
     font-weight: 100 900;
 }
 
-@media screen and (max-width: 3840px){
     /*GENERAL*/
 
     body{  
@@ -241,11 +240,15 @@
 
     .conteneurCartes{
         display: flex;
-        flex-wrap: wrap;       
+        flex-wrap: wrap;
+                 
+    }
+
+    .conteneurCartes>* {
+        flex: 1;
     }
 
     .cartesHebergements{   
-        flex-direction: column;
         justify-content: center;
         background-color: white;   
         margin: 15px 30px 15px 0;
@@ -471,7 +474,7 @@
     .listeFooter{
         line-height: 2;
     }
-}
+
 
 
 
