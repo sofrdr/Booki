@@ -516,7 +516,7 @@
     }
 
     .conteneurHebergements{
-        width: 100%;
+        width: 95%;
         background-color: white;     
     }
     
@@ -535,8 +535,9 @@
     }
 
     #activites{
-        width: 100%;
-        margin: 30px 30px 15px;
+        width: auto;
+        margin-left: 30px;
+        
     }
 
     .conteneurActivites{
@@ -544,7 +545,7 @@
     }
 
     .cartesActivites{
-        width: 42%;
+        width: 49%;
         margin: 10px 40px 30px 0;
     }
 
@@ -573,7 +574,7 @@
     }
 
     main{
-        margin: 0 15px;
+        margin: 0;
     }
 
     header{
@@ -670,18 +671,16 @@
         flex-direction: column-reverse;
     }
 
-    .conteneurPopulaire{
-        width: 100%;
-    }
 
     .conteneurHebergements{
-        width: 100%;
-        padding: 15px;
+        width: auto;
+        padding: 30px 0 0 30px;
+        margin: 0;
         background-color: white;
     }
 
     .cartesHebergements{
-        width: 100%;
+        width: auto;
         height: 210px;    
     }
 
@@ -698,16 +697,16 @@
     }
 
     .cartesPopulaire{
-        width: 90%;
+        width: 85%;
         
     }
     
 
-    #activites{
-        padding: 15px;
-        margin: 0;
+    #activites{   
+        margin: 30px;
         width: auto;
     }
+    
     .conteneurActivites{
         flex-direction: column;
     }
