@@ -584,7 +584,8 @@
     }
 
     .logoBooki{
-        margin: 20px 0 0 20px;
+        margin-top: 20px;
+        margin-left: 40px;
     }
 
     nav{
@@ -597,32 +598,39 @@
     }
 
     nav ul li{
-        width: 50%;
+        width: 100%;
         border-bottom: 2px solid #F2F2F2;
         padding-bottom: 10px;
+        text-align: center;
     }
 
-    .navLien{
-        width: 100%;
-        text-align: center;
+    .navLien{ 
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+
     }
 
     .navLien:hover{
         border-top: none ;
+        padding-top: 0;
     }
 
-    nav ul li:hover{
+    .navLien:active{
+        color: #0065FC;
+    }
+
+    nav ul li:hover, nav ul li:active{
         color: #0065FC;    
-        border-bottom: 2px solid;
-        padding-bottom: 10px;   
+        border-bottom: 2px solid;       
     }
 
     .trouvezHebergement{
-        margin: 0 15px;    
+        padding: 0 15px;    
     }
 
-    h1{
-        margin-right: 20px;
+    .rechercheForm{
+        width: 200px;
     }
    
     .boutonLoupe{
@@ -637,7 +645,7 @@
         text-align: center;
         border: hidden;
         position: absolute;
-        left: 250px;
+        left: 220px;
         cursor: pointer;
     }
 
@@ -668,20 +676,34 @@
     }
 
     #hebergements{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse;     
     }
-
-
+    
     .conteneurHebergements{
         width: auto;
-        padding: 30px 0 0 30px;
+        padding: 10px;
         margin: 0;
         background-color: white;
     }
 
-    .cartesHebergements{
+    .afficher, .conteneurHebergements h2{
+        padding: 0 20px;
+    }
+
+    .conteneurCartes{
         width: auto;
-        height: 210px;    
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cartesHebergements{
+        width: 85%;  
+        margin: 15px 0;    
+    }
+
+    .imageHebergements{
+        width: 100%;
+        height: 150px;
     }
 
     .conteneurPopulaire{
@@ -693,60 +715,54 @@
 
     .titrePopulaire{
         justify-content: space-between;
-        margin: 0 15px;
+        margin: 0 20px;
     }
 
     .cartesPopulaire{
-        width: 85%;
-        
+        width: 85%;   
     }
     
 
     #activites{   
-        margin: 30px;
+        margin: 15px 0;
         width: auto;
+    }
+
+    #activites h2{
+        margin: 0 20px;
     }
     
     .conteneurActivites{
-        flex-direction: column;
+        flex-direction: column;    
+        align-items: center;
     }
 
     .cartesActivites{
-        width: 100%;
+        width: 85%;
         height: 180px;
-             
+        margin: 40px 0;
+                 
     }
 
     .cartesColonne1{
-        width: 100%;
-        margin-bottom: 20px;
-        
+        width: 85%;
+        margin: 0;
+       
     }
 
-    .fortPomegues{
-        height: 180px;
-    }
-
-    .ilesFrioul{
-        height: 180px;
+    .fortPomegues, .ilesFrioul, .notreDame, .parcLongchamp{
+        height: 180px;   
     }
 
     .cartesColonne2{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .notreDame{
-        height: 180px;
-    }
-
-    .parcLongchamp{
-        height: 180px;
+        width: 85%;
+        margin: 0;     
     }
 
     footer{
         flex-direction: column;
         padding: 20px;
+        margin-top: 40px;
     }
 
     footer div{
