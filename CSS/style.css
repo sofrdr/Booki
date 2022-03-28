@@ -70,9 +70,15 @@
         display: flex;
         align-items: center;
         width: 20%;
-        font-weight: 500; 
+        font-weight: 600; 
         font-size: 15px; 
         
+    }
+
+    @-moz-document url-prefix() {
+        nav ul {
+               font-weight:520;
+       }
     }
 
     .navLien{
@@ -86,7 +92,7 @@
     .navLien:hover{
         color: #0065FC;
         border-top: 2px solid;
-        padding-top: 30px;
+        padding-top: 28px;
         
     }
 
